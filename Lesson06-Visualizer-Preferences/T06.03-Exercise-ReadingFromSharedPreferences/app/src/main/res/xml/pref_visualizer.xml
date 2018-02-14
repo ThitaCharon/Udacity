@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_bass"
+        android:summaryOff="Hidden"
+        android:summaryOn="Shown"
+        android:title="Show Bass" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="turn on blue"
+        android:summaryOff="not Blue"
+        android:summaryOn="Blue"
+        android:title="Change to Blue"
+        ></CheckBoxPreference>
+
+</PreferenceScreen>
